@@ -20,7 +20,6 @@ STRESS_GRAD_THRESHOLD = 5e-3
 DISP_GRAD_THRESHOLD = 1e-3
 ELEMENT_SIZE_WEIGHT = 0.3
 
-
 def load_result(path):
     """Load .rst file and return result object."""
     print(f" Loading file: {path}")
@@ -150,7 +149,6 @@ def build_dataset(result):
     df = pd.DataFrame(rows)
     print(f" Extracted {len(df)} elements with features.")
     return df
-
 
 
 
